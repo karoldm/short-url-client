@@ -44,6 +44,9 @@ export class AppComponent {
           (response) => {
             this.shortUrl = environment.apiUrl + "/" + response.code;
             this.snackBar.open("URL gerada com sucesso!");
+          },
+          (error) => {
+            this.snackBar.open('Tivemos um problema ao encurtar essa URL.');
           }
         );
     } catch (err) {
