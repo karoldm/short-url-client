@@ -13,5 +13,7 @@ This is the client application built using Angular that interacts with the AWS L
 
 ## **Deploy** 🛠️
 
-- `ng build --prod --base-href /short-url-client/`
-- `npx angular-cli-ghpages --dir=dist/short-url`
+1. Delete /dist dir
+2. Run `ng build --output-path=dist/short-url-client --configuration=production`
+3. Copy files generated inside /dist/short-url-client/browser to /dist/short-url-client/
+4. Run `npx angular-cli-ghpages --dir=dist/short-url-client`
