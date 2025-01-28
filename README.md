@@ -10,3 +10,8 @@ This is the client application built using Angular that interacts with the AWS L
 ## **Diagram of the Flow** 📊
 
 ![diagram flow](./assets/shortUrlDiagram.jpg)
+
+## **Deploy 🛠️
+
+- `ng build --prod --base-href /short-url-client/`
+- `npx angular-cli-ghpages --dir=dist/short-url`
