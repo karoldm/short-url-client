@@ -9,6 +9,7 @@ This is the client application built using Angular that interacts with the AWS L
 
 ## **Diagram of the Flow** 📊
 
+![homepage](./assets/img.png)
 ![diagram flow](./assets/shortUrlDiagram.jpg)
 
 ## **Deploy** 🛠️
